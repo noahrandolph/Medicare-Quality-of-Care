@@ -1,0 +1,32 @@
+Noah Randolph
+21 Oct. 2017
+
+BEST STATES
+
+STATE	OVERALL COMPLICATIONS RATING EFFECTIVE CARE %	EFFECTIVE CARE TIMING
+SD      4       2.0     	     94.75332        	9.7                                     
+DE	3.6667	2.0196    	     85.93056667	8.66666667
+WI	3.6471	1.9918   	     92.63662206	11.79411765
+VT	3.6	2.0		     92.75048		9
+UT	3.5882	1.9896   	     92.27101176	10.97058824
+ME	3.5833	1.9922	     	     93.296875		10.08333333
+MN	3.5738	2.0019   	     89.38638033	14.59836066
+NH	3.5714	2.0045   	     91.79422143	10.42857143
+IN	3.5616	2.0003    	     90.86420548	13.10958904
+ID	3.5	2.0		     86.8538625		14.0625
+
+The above table ranks the top 10 states in terms of high-quality care. All states were first sorted by state average overall hospital rating (see second column), which represents 57 quality measures related to mortality, safety of care, readmission, patient experience, effectiveness of care, timeliness of care, and efficient use of medical imaging (https://www.medicare.gov/hospitalcompare/Data/Hospital-overall-ratings-calculation.html). The state average overall hospital rating is on a scale of 1 to 5 stars, where 5 is highest.
+
+The state average overall hospital rating resulted in zero ties, but if there had been any, the next column would sort to break them. To ensure that none of the top ten states were erroneously scored highly, the state average complications rating (see the third column) and the state average effective care measures, broken into average percentages and average elapsed-times (see the third and fourth columns), are displayed to show consistency with the state average overall hospital rating. For example, the state average complications ratings are all right around a score of 2, which means the average state hospital is about average with the rest of the nation. Anything closer to a score of 1 would be suspect. Likewise, the state average effective care percentages are all consistently within the middle 80% to middle 90% range, and the state average effective care elapsed times are all within plus or minus 3 minutes of each other.
+
+State average complications rating is inferior to state average overall hospital rating because it is both less comprehensive of entire hospital settings (only looking at medical procedure complications) and only available on a score of 1, 2, or 3, which corresponded to "Worse than the National Rate," "No Different than the National Rate," and "Better than the National Rate," respectively. Contrast that with the state average overall hospital rating, which is on a five-point scale, where 1 is lowest and 5 is highest.
+
+The state average complications ratings were deemed more severe than the effective care ratings, given that they correspond to actual medical casualties, rather than just leading indicators of potential harm to patients, despite the fact that the effective care ratings are in smaller increments (e.g. 0% to 100% versus 1 to 5).
+
+See "best_hospitals.txt" for more details on the specific measures included in the state average effective care ratings and the state average complications ratings.
+
+Each state's values shown in the four columns above were determined by averaging the complications and effective care scores across each measure for each hospital, then all measures in all hospitals were joined together, averaged by state, and finally sorted, beginning with the 'OVERALL' column in the table above, followed by the last 3 columns in order. The results displayed were limited to only the top 10.
+
+Ratings and measurements were not assessed for their improvement over time, since the data only contained three time spans, all three of which overlapped from July 2013 to July 2015, and two of the three time spans overlapped to April 2016. 
+
+Hospitals with column entries listed as "Not Available" were excluded from this study, since their were enough hospitals in each state to make reasonable conclusions about hospital qualities across each state.

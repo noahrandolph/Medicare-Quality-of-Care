@@ -1,0 +1,75 @@
+Noah Randolph
+21 Oct. 2017
+
+BEST HOSPITALS
+
+ID	NAME						OVERALL COMPLICATIONS RATING EFFECTIVE CARE %	EFFECTIVE CARE TIMING
+450184  MEMORIAL HERMANN HOSPITAL SYSTEM        	5      	2.2941  	     80.125		29.5
+361307	UHHS MEMORIAL HOSPITAL OF GENEVA		5	2.25		     91.8333		34
+450431	ST DAVID'S MEDICAL CENTER			5	2.2353		     96.57146
+050238	METHODIST HOSPITAL OF SOUTHERN CA		5	2.2353		     94.6667		12
+450610	MEMORIAL HERMANN MEMORIAL CITY MEDICAL CENTER	5	2.2353		     83.1429		5
+420087	ROPER HOSPITAL					5	2.1765		     95.4286		4
+150057	FRANCISCAN HEALTH MOORESVILLE			5	2.1429		     94.8		21.5
+050324	SCRIPPS MEMORIAL HOSPITAL LA JOLLA		5	2.1176		     95.375		8
+260006	MOSAIC LIFE CARE AT ST JOSEPH			5	2.1176		     91.25		6
+010125	LAKELAND COMMUNITY HOSPITAL			5	2.1111		     91			0
+
+The above table ranks the top 10 hospitals in terms of high-quality care. All hospitals were first sorted by overall hospital rating (see 'OVERALL' column above), which represents 57 quality measures related to mortality, safety of care, readmission, patient experience, effectiveness of care, timeliness of care, and efficient use of medical imaging (https://www.medicare.gov/hospitalcompare/Data/Hospital-overall-ratings-calculation.html). The overall hospital rating is on a scale of 1 to 5 stars, where 5 is highest.
+
+Given that the top 10 hospitals were all tied with an overall hospital rating of 5, they were then ranked by their average complications rating (see the 'COMPLICATIONS RATING' column above) across the following measures:
+-Death rate for CABG
+-Heart failure (HF) 30-Day Mortality Rate
+-Accidental cuts and tears from medical treatment
+-Infections from a large venous catheter
+-Blood stream infection after surgery
+-Death rate for stroke patients
+-Acute Myocardial Infarction (AMI) 30-Day Mortality Rate
+-Death rate for chronic obstructive pulmonary disease (COPD) patients
+-Serious blood clots after surgery
+-Pressure sores
+-A wound that splits open  after surgery on the abdomen or pelvis
+-Broken hip from a fall after surgery
+-Collapsed lung due to medical treatment
+-Deaths among Patients with Serious Treatable Complications after Surgery
+-Rate of complications for hip/knee replacement patients
+-Serious complications
+-Pneumonia (PN) 30-Day Mortality Rate
+
+Each measure was given a score of 1, 2, or 3, which corresponded to the strings in the raw data: "Worse than the National Rate," "No Different than the National Rate," and "Better than the National Rate," respectively. After the numeric scores were determined for each measure, the average of all of the above complications measures was determined for each hospital. Those averages were then ranked as seen in the 'COMPLICATIONS RATING' column in the table above.
+
+The above listed "complication" measures were deemed more severe than the "effective care" measures, given that they correspond to actual medical casualties, rather than just leading indicators of potential harm to patients. However, given that there were still ties in the top 10 ranking, "effective care" measures were selected based on severity for tie-breaking. 
+
+The "effective care" measures were broken into percentage measurements and elapsed time measurements:
+
+percentage measurements:
+-Patients assessed and given influenza vaccination
+-Healthcare workers given influenza vaccination
+-Outpatients with chest pain or possible heart attack who got drugs to break up blood clots within 30 minutes of arrival
+-Percentage of patients who came to the emergency department with stroke symptoms who received brain scan results within 45 minutes of arrival
+-Percentage of patients receiving appropriate recommendation for follow-up screening colonoscopy
+-Percentage of patients with history of polyps receiving follow-up colonoscopy in the appropriate timeframe
+-Percentage of patients who had cataract surgery and had improvement in visual function within 90 days following the surgery -Aspirin at Arrival
+-Ischemic stroke patients who got medicine to break up a blood clot within 3 hours after symptoms started 
+-Patients with blood clots who were discharged on a blood thinner medicine and received written instructions about that medicine 
+
+elapsed-time measurements:
+-Average (median) time patients spent in the emergency department, before they were admitted to the hospital as an inpatient
+-Average (median) time patients spent in the emergency department, after the doctor decided to admit them as an inpatient before leaving the emergency department for their inpatient room
+-Average (median) time to fibrinolysis
+-Average (median) time patients spent in the emergency department before leaving from the visit
+-Average (median) time patients spent in the emergency department before they were seen by a healthcare professional
+-Average (median) time patients who came to the emergency department with broken bones had to wait before getting pain medication
+-Average (median) number of minutes before outpatients with chest pain or possible heart attack who needed specialized care were transferred to another hospital
+-Average (median) number of minutes before outpatients with chest pain or possible heart attack got an ECG
+
+The "effective care" percentage measurements (see second to last column above) were selected based on severity of consequences. For example, chest pain and influenza response measures were included while patients leaving before being seen was not. All nine "effective care" percentages were averaged for each hospital. All eight elapsed-time "effective care" measurements (see last column above) were also averaged for each hospital.
+
+The elapsed-time "effective care" measurements were ranked after the "effective care" percentages to account for the fact that some hospital emergency rooms must accommodate more patients than others based on the socioeconomic status of their community (i.e. some hospitals accommodate a substantial number of patients in their emergency rooms for non-emergencies if comparably less patients in the community have health insurance).
+
+Similar to the complications measures, each of the above listed effective care measures were averaged for each hospital and ranked as shown in the 'EFFECTIVE CARE %' and 'EFFECTIVE CARE TIMING' columns above.
+
+Ratings and measurements were not assessed for their improvement over time, since the data only contained three time spans, all three of which overlapped from July 2013 to July 2015, and two of the three time spans overlapped to April 2016. 
+
+Hospitals with column entries listed as "Not Available" were excluded from this study, since their absence would not severely affect the overall study (just there own stake in being compared as a US Medicare hospital).
+

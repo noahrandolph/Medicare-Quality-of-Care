@@ -1,0 +1,26 @@
+Noah Randolph
+21 Oct. 2017
+
+HOSPITAL VARIABILITY
+
+MEASURE ID		COEF. OF VARIATION	MEASURE DESCRIPTION
+PC_01   		3.41                    Elective delivery                                           
+VTE_6			2.16			Hospital acquired potentially preventable venous thromboembolism
+OP_31			1.83			Improvement in Patient’s Visual Function within 90 Days Following Cataract Surgery
+PSI_3_ULCER		1.65			Pressure ulcer rate
+OP_22			1.46			Patient left without being seen
+PSI_8_POST_HIP		1.29			Postoperative hip fracture rate 
+PSI_7_CVCBI		1.29			Central venous catheter-related bloodstream infection rate
+IMM_3_OP_27_FAC_ADHPCT	1.17			Influenza Vaccination Coverage among Healthcare Personnel
+OP_30			1.16			Colonoscopy interval for patients with a history of adenomatous polyps
+PSI_14_POSTOP_DEHIS	1.13			Postoperative wound dehiscence rate
+
+The above table ranks the top 10 measurements in terms of their coefficients of variation across the Medicare hospital population. Coefficient of variation was the selected parameter for ranking variation because it is a dimensionless number that can be used to compare different units, provided that the units are ratio variables (with a common zero). Some measures were in units of time and some were percentages.
+
+In order to obtain coefficients of variation across all of the measures in the complications and the effective care tables, separate coefficients of variation were obtained for the measures in both tables. The effective care measures were split into two separate calculations, one for the measures given as percentages and one for the measures given as median elapsed times. 
+
+For all ratio measures, first the ratio numerators were derived by multiplying the scores by the denominator column in the complications table and by the sample column in the effective care table. The sample column was confirmed via email with Hospital Compare that they are equivalent to the denominator column in the complications table. The numerators were necessary because standard deviations of percentages would be misleading. The average numerators for each measure were then calculated, followed by the standard deviations, and finally the coefficients of variation for each measure were determined by dividing the standard deviations by the average numerators.
+
+For the elapsed time measures in the effective care table, the average scores were calculated (since it was confirmed on the Hospital Compare website to be the direct elapsed times), followed by the standard deviations, and finally the coefficients of variation (by dividing standard deviations by the score averages.
+
+The three sets of coefficients of variation (one from the complications table and two from the effective care table) were then combined with union operations and sorted by the coefficients of variation for each measure. Finally, the results were limited to the top ten, as seen above.
