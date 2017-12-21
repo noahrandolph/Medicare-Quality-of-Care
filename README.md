@@ -1,5 +1,3 @@
-Exercise 1
-
 Noah Randolph
 30 Oct. 2017
 
