@@ -3,7 +3,7 @@ Noah Randolph
 
 This README document will also serve as the architecture design document.
 
-To run the program, clone the repository "w205_fall_2017" from the Github account for noahrandolph. Navigate one level down to the "exercise_1" directory. Run the command "./run_all_scripts.sh". This assumes you have the connectivity and system requirements including Spark-SQL, Hadoop distributed file system (HDFS), Postgres, Hive Metastore, and the Bash Unix shell.
+To run the program, clone the repository "Medicare-Quality-of-Care" from the Github account for noahrandolph. Run the command "./run_all_scripts.sh". This assumes you have the connectivity and system requirements including Spark-SQL, Hadoop distributed file system (HDFS), Postgres, Hive Metastore, and the Bash Unix shell.
 
 The high-level design of the program begins with downloading and saving the Medicare .csv files from data.medicare.gov into a staging directory. The headers are removed from each of the five .csv files of interest and the files are renamed. HDFS directories are then created and the five files are moved into them. All of the preceding actions are executed via the "load_data_lake.sh" script.
 
