@@ -1,0 +1,55 @@
+BEST HOSPITALS
+
+ID	NAME						OVERALL COMPLICATIONS RATING EFFECTIVE CARE %	EFFECTIVE CARE TIMING
+450184  MEMORIAL HERMANN HOSPITAL SYSTEM        	5      	2.2941  	     80.125		29.5
+361307	UHHS MEMORIAL HOSPITAL OF GENEVA		5	2.25		     91.8333		34
+450431	ST DAVID'S MEDICAL CENTER			5	2.2353		     96.57146
+050238	METHODIST HOSPITAL OF SOUTHERN CA		5	2.2353		     94.6667		12
+450610	MEMORIAL HERMANN MEMORIAL CITY MEDICAL CENTER	5	2.2353		     83.1429		5
+420087	ROPER HOSPITAL					5	2.1765		     95.4286		4
+150057	FRANCISCAN HEALTH MOORESVILLE			5	2.1429		     94.8		21.5
+050324	SCRIPPS MEMORIAL HOSPITAL LA JOLLA		5	2.1176		     95.375		8
+260006	MOSAIC LIFE CARE AT ST JOSEPH			5	2.1176		     91.25		6
+010125	LAKELAND COMMUNITY HOSPITAL			5	2.1111		     91			0
+
+
+
+BEST STATES
+
+STATE	OVERALL COMPLICATIONS RATING EFFECTIVE CARE %	EFFECTIVE CARE TIMING
+SD      4       2.0     	     94.75332        	9.7                                     
+DE	3.6667	2.0196    	     85.93056667	8.66666667
+WI	3.6471	1.9918   	     92.63662206	11.79411765
+VT	3.6	2.0		     92.75048		9
+UT	3.5882	1.9896   	     92.27101176	10.97058824
+ME	3.5833	1.9922	     	     93.296875		10.08333333
+MN	3.5738	2.0019   	     89.38638033	14.59836066
+NH	3.5714	2.0045   	     91.79422143	10.42857143
+IN	3.5616	2.0003    	     90.86420548	13.10958904
+ID	3.5	2.0		     86.8538625		14.0625
+
+
+
+HOSPITAL VARIABILITY
+
+MEASURE ID		COEF. OF VARIATION	MEASURE DESCRIPTION
+PC_01   		3.41                    Elective delivery                                           
+VTE_6			2.16			Hospital acquired potentially preventable venous thromboembolism
+OP_31			1.83			Improvement in Patient’s Visual Function within 90 Days Following Cataract Surgery
+PSI_3_ULCER		1.65			Pressure ulcer rate
+OP_22			1.46			Patient left without being seen
+PSI_8_POST_HIP		1.29			Postoperative hip fracture rate 
+PSI_7_CVCBI		1.29			Central venous catheter-related bloodstream infection rate
+IMM_3_OP_27_FAC_ADHPCT	1.17			Influenza Vaccination Coverage among Healthcare Personnel
+OP_30			1.16			Colonoscopy interval for patients with a history of adenomatous polyps
+PSI_14_POSTOP_DEHIS	1.13			Postoperative wound dehiscence rate
+
+
+
+CORRELATION OF HOSPITAL AVERAGE MEASURE SCORES WITH PATIENT SURVEY RESPONSES
+
+Spearman's rank correlation coefficient = 0.491
+
+
+
+

@@ -15,13 +15,4 @@ Following the schema-on-read, the data is then transformed into analytical table
 ![](ERD_Analytical.png)
 
 <br><br>
-![](README_files/best_hospitals.png)
-
-<br><br>
-![](README_files/best_states.png)
-
-<br><br>
-![](README_files/hospital_variability.png)
-
-<br><br>
-![](README_files/hospitals_and_patients.png)
+![](README_files/results.png)
