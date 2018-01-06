@@ -13,6 +13,6 @@ Following the schema-on-read, the data is then transformed into analytical table
 
 Lastly the analyses are performed via .sql scripts to answer the four exercise questions. These analyses are described with their accompanying .txt files in the subdirectories of "investigations," which are "best_hospitals," "best_states," "hospital_variability," and "hospitals_and_patients." The same .txt files also contain the resulting outputs of the analyses, which are ranking tables for all but "hospitals_and_patients.txt," which gives a correlation coefficient.
 
-![](README_files/ERD_Analytical.png)
+![](/ERD_Analytical.png)
 
 
