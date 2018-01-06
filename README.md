@@ -12,3 +12,11 @@ Next, a schema-on-read is defined in the script "hive_base_ddl.sql" using Spark-
 Following the schema-on-read, the data is then transformed into analytical tables, with proper data types and useful transformations. See the file "ERD_Analytical_Exercise_1.png" for the analytical schema. For each table in the schema, data rows with no available data are assumed to be without analytic usefulness and are removed. Only certain columns from the original "ERD_Schema_on_Read.png" tables remain, based on their analytical utility. The original table "measures" is not used in the analytical ERD, since it was found to have redundant information with the "complications" and "effective_care" tables, as well as the fact that the dates in the data do not span far back in history.
 
 ![](ERD_Analytical.png)
+
+![](README_files/best_hospitals.png)
+
+![](README_files/best_states.png)
+
+![](README_files/hospital_variability.png)
+
+![](README_files/hospitals_and_patients.png)
